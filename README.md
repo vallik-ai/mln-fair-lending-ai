@@ -29,6 +29,8 @@ cd mlnfairlendingai
 # Upload your HMDA CSV file to Google Cloud Storage  
 gsutil cp hmda_multi_state_2024.csv gs://yourbucket/hmda_audit/multi_state_2024/  
 
+Source data URL:  https://ffiec.cfpb.gov/data-browser/data/2024?category=states 
+
 4. Execute the system  
 Run the consolidated SQL file in BigQuery  
 This will create all tables and execute the complete pipeline  
@@ -249,4 +251,5 @@ System Status
  Performance: Subsecond similarity search with vector indexes  
  Scalability: Designed for enterprisescale deployment  
  Explainability: Clear AI reasoning for all findings  
+
 
